@@ -44,6 +44,7 @@
   .card { border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.15rem; margin-bottom: .8rem; }
   .card h3 { margin: 0 0 .35rem; font-size: 1rem; }
   .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+  .note { color: var(--muted); font-size: .93rem; }
   footer { margin-top: 3.4rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
            color: var(--muted); font-size: .85rem; }
 </style>
@@ -61,16 +62,18 @@
     </div>
   </header>
 
-  <h2>About</h2>
-  <p>
-    I am an undergraduate student at <strong>Chongqing University</strong>, enrolled in 2024 at the
-    <strong>National Elite Institute of Engineering</strong> (重庆大学国家卓越工程师学院).
-  </p>
-  <p>
-    My interests are in <strong>efficient inference systems for large language models</strong> —
-    mixture-of-experts offloading, GPU–CPU hybrid execution, and KV cache management: the engineering
-    side of making very large models run on hardware people actually have.
-  </p>
+  <h2>Research interests</h2>
+  <ul>
+    <li><strong>Efficient inference</strong> — KV cache design and long-context attention: what a
+        model actually needs to attend to when the context gets long.</li>
+    <li><strong>Generative modeling</strong> — image generation and autoregressive generative models.</li>
+    <li><strong>LLM agents &amp; tooling</strong> — agent memory, long-horizon task execution, and the
+        harnesses that make them work in practice.</li>
+    <li><strong>Efficient architectures</strong> — mixture-of-experts offloading and GPU–CPU hybrid
+        execution: the engineering side of making very large models run on hardware people actually have.</li>
+  </ul>
+  <p class="note">Most of this work lives in private repositories and in projects not yet published,
+     so the public repositories below are only a slice of it.</p>
 
   <h2>Projects</h2>
   <div class="card">
