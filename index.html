@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yuyue Li (李宇越) — Chongqing University</title>
+<meta name="description" content="Yuyue Li (李宇越), undergraduate student at Chongqing University, College of Excellence in Engineering. Efficient inference for large language models.">
+<style>
+  :root {
+    --bg: #fbfbfa;
+    --fg: #1b1b1a;
+    --muted: #6b6b66;
+    --line: #e4e4df;
+    --accent: #1f5f4b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#ececea; --muted:#9a9a94; --line:#2c2c2a; --accent:#6fbf9b; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 4.5rem 1.4rem 5rem; }
+  header { padding-bottom: 1.6rem; border-bottom: 1px solid var(--line); margin-bottom: 2.2rem; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 .3rem; letter-spacing: -.02em; }
+  .cn { font-size: 1.15rem; color: var(--muted); font-weight: 400; margin-left: .1rem; }
+  .role { font-size: 1.02rem; color: var(--fg); margin: .55rem 0 .1rem; }
+  .org { color: var(--muted); margin: 0; }
+  .contact { margin-top: 1.1rem; display: flex; flex-wrap: wrap; gap: .45rem .9rem; font-size: .95rem; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(31,95,75,.25); }
+  a:hover { border-bottom-color: var(--accent); }
+  h2 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .13em;
+    color: var(--muted); font-weight: 600; margin: 2.4rem 0 .8rem;
+  }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0; padding-left: 1.15rem; }
+  li { margin-bottom: .45rem; }
+  .card { border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.15rem; margin-bottom: .8rem; }
+  .card h3 { margin: 0 0 .35rem; font-size: 1rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+  footer { margin-top: 3.4rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Yuyue Li <span class="cn">李宇越</span></h1>
+    <p class="role">Undergraduate Student (2024 intake)</p>
+    <p class="org">Chongqing University · 重庆大学 卓越工程师学院 · Chongqing, China</p>
+    <div class="contact">
+      <a href="mailto:20242803@stu.cqu.edu.cn">20242803@stu.cqu.edu.cn</a>
+      <a href="https://github.com/Mr-Skeleton-Max">GitHub</a>
+    </div>
+  </header>
+
+  <h2>About</h2>
+  <p>
+    I am an undergraduate student at <strong>Chongqing University</strong>, enrolled in 2024 at the
+    College of Excellence in Engineering (卓越工程师学院).
+  </p>
+  <p>
+    My interests are in <strong>efficient inference systems for large language models</strong> —
+    mixture-of-experts offloading, GPU–CPU hybrid execution, and KV cache management: the engineering
+    side of making very large models run on hardware people actually have.
+  </p>
+
+  <h2>Projects</h2>
+  <div class="card">
+    <h3><a href="https://github.com/Mr-Skeleton-Max/WarpMoE">WarpMoE</a></h3>
+    <p>A GPU–CPU hybrid offloading engine that runs DeepSeek-scale MoE models far beyond available
+       VRAM — 83–119 tok/s on a single A100, across 24–80 GB VRAM tiers.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <ul>
+    <li>Email — <a href="mailto:20242803@stu.cqu.edu.cn">20242803@stu.cqu.edu.cn</a></li>
+    <li>GitHub — <a href="https://github.com/Mr-Skeleton-Max">@Mr-Skeleton-Max</a></li>
+  </ul>
+
+  <footer>
+    Yuyue Li · 李宇越 · Chongqing University · 重庆大学卓越工程师学院
+  </footer>
+</main>
+</body>
+</html>
